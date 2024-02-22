@@ -1,0 +1,68 @@
+body {
+  /* background-image: url('background.jpg'); */
+  background-image: linear-gradient(to bottom right, rgb(194, 194, 194), rgb(116, 116, 116));
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 80%; 
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  backdrop-filter: blur(30px); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+h2 {
+  color: #333333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333333; 
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db; 
+  color: #ffffff; 
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #3498db; 
+  color: #ffffff; 
+  margin-left: 230px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9; 
+}
